@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mount Rinjani Trekking Blog & Guides | Tranom Trekking</title>
+    <meta name="description" content="Explore comprehensive Mount Rinjani climbing guides, seasonal weather advice, route comparisons, and packing checklists.">
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        .blog-featured {
+            background: #fff;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 50px;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            border: 1px solid rgba(0,0,0,0.06);
+        }
+        .featured-img {
+            background: url('../images/top-rinjani.jpg') no-repeat center center / cover;
+            min-height: 320px;
+        }
+        .featured-content {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .featured-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: var(--radius-full);
+            text-transform: uppercase;
+            width: fit-content;
+            margin-bottom: 12px;
+        }
+        .featured-content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+            color: var(--primary);
+        }
+        .featured-content p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        @media (max-width: 850px) {
+            .blog-featured {
+                grid-template-columns: 1fr;
+            }
+            .featured-img {
+                height: 240px;
+            }
+            .featured-content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-header">
+        <div class="container">
+            <div class="top-socials">
+                <a href="https://www.facebook.com/share/1CvHGH2sDf/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://youtube.com/@channelku77?si=j6bjl2JyQpG0AMhy" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@rinjani_nature" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/fanrinjani_hikking?igsh=MWF1czlsdjh1a3c3bQ%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../images/logo.jpeg" alt="Tranom Trekking" class="nav-logo-img">
+                <span class="logo-text">
+                    <span class="brand-rinjani">Tranom</span> 
+                    <span class="brand-nature">Trekking</span>
+                </span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#packages">Packages</a></li>
+                <li><a href="../index.html#panorama">Panorama</a></li>
+                <li><a href="../gallery/gallery.html">Gallery</a></li>
+                <li><a href="blog-list.html" class="active">Blog</a></li>
+                <li><a href="../info/index.html">Info & Rates</a></li>
+                <li><a href="../countact/contact.html">Contact Us</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header" style="background: url('../images/hero.jpg') no-repeat center center/cover;">
+        <div class="overlay-dark"></div>
+        <div class="container header-content">
+            <h1>Trekking Articles & Guides</h1>
+            <p>Field tested guides, packing checklists, and local mountaineering advice</p>
+        </div>
+    </header>
+
+    <section class="section-padding bg-light">
+        <div class="container">
+            
+            <!-- FEATURED ARTIKEL UTAMA -->
+            <div class="blog-featured">
+                <div class="featured-img"></div>
+                <div class="featured-content">
+                    <span class="featured-badge">Featured Pillar Guide</span>
+                    <h2>The Ultimate Mount Rinjani Trekking Guide (Complete Edition)</h2>
+                    <p>Everything you must know: route analysis, elevation breakdowns, fitness conditioning, gear checklists, and practical altitude advice.</p>
+                    <a href="ultimate-rinjani-trekking-guide.html" class="btn btn-primary" style="width: fit-content;">Read Comprehensive Guide &rarr;</a>
+                </div>
+            </div>
+
+            <!-- SECTION HEADER -->
+            <div class="section-header">
+                <span class="sub-title" style="text-transform: uppercase; letter-spacing: 2px; font-weight: 600; color: #e67e22; font-size: 0.85rem; display: block; margin-bottom: 8px;">Explore Articles</span>
+                <h2>Essential Reading Before You Climb</h2>
+                <div class="line"></div>
+            </div>
+
+            <!-- GRID DAFTAR ARTIKEL -->
+            <div class="blog-grid">
+                <!-- Artikel 1 -->
+                <div class="blog-card">
+                    <div class="blog-img" style="background-image: url('../images/rinjani-view.jpg');">
+                        <span class="badge">Weather</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="date"><i class="far fa-calendar-alt"></i> March 15, 2026</div>
+                        <h4>Best Time to Climb Mount Rinjani</h4>
+                        <p>Seasonal patterns, dry season months, peak visibility windows, and national park rainy season closures.</p>
+                        <a href="best-time-to-climb-mount-rinjani.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Artikel 2 -->
+                <div class="blog-card">
+                    <div class="blog-img" style="background-image: url('../images/trekking.jpg');">
+                        <span class="badge">Local Care</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="date"><i class="far fa-calendar-alt"></i> February 28, 2026</div>
+                        <h4>Why Choose Tranom Trekking?</h4>
+                        <p>Our commitment to ethical porter welfare, certified wilderness guides, nutritious dining, and leave-no-trace ethics.</p>
+                        <a href="why-choose-tranom-trekking.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Artikel 3 -->
+                <div class="blog-card">
+                    <div class="blog-img" style="background-image: url('../images/top-lake.jpg');">
+                        <span class="badge">Logistics</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="date"><i class="far fa-calendar-alt"></i> January 10, 2026</div>
+                        <h4>Plan Your Trip to Lombok</h4>
+                        <p>Transport arrival logistics, boat transfers, gear storage, and pre-trek accommodation options in Senaru.</p>
+                        <a href="plan-your-trip-to-lombok.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <h3 class="footer-brand-title">TRANOM TREKKING</h3>
+                    <p>Penyedia layanan pendakian Gunung Rinjani profesional, terpercaya, dan ramah lingkungan.</p>
+                </div>
+                <div class="footer-col contact-col">
+                    <h3>Kontak & Lokasi</h3>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Bayan, Lombok Utara</li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/6282322044854" target="_blank">+62 823-2204-4854</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col payment-col">
+                    <h3>Pembayaran Resmi</h3>
+                    <div style="background: rgba(255, 255, 255, 0.05); padding: 12px; border-radius: 8px;">
+                        <img src="../images/bri.jpg" alt="Bank BRI" style="max-width: 90px; margin-bottom: 8px; background: #fff; padding: 3px; border-radius: 4px;">
+                        <p style="margin: 0; font-size: 0.85rem; color: #fff;">BRI: <strong>4692 0104 5494 538</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom" style="text-align: center; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 30px; padding-top: 20px;">
+                <p>&copy; 2026 Tranom Trekking. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="https://wa.me/6282322044854" class="float-wa" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
+    </a>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
